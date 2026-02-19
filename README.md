@@ -1,9 +1,7 @@
 # Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning (FINO)
-
 This repository provides the official implementation of **Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning (FINO)**, accepted to ICLR 2026.
 
 ## Installation
-
 FINO is implemented in **Python 3.9** and built using **JAX**.
 To install the required dependencies, run:
 ```bash
@@ -11,7 +9,6 @@ pip install -r requirements.txt
 ```
 
 ## Reproducing Results
-
 The core implementation of FINO can be found in [agents/fino.py](agents/fino.py).
 
 To reproduce our main results, you can use the following command:
@@ -21,7 +18,6 @@ python main.py
 We provide a complete list of commands to reproduce the specific results presented in the paper.
 
 ### FINO on default tasks of OGBench
-
 ```bash
 # OGBench humanoidmaze-medium-navigate-singletask-v0 (default: task1)
 python main.py --env_name=humanoidmaze-medium-navigate-singletask-v0 --agent.alpha=100 --agent.discount=0.995
@@ -114,10 +110,20 @@ python main.py --env_name=relocate-cloned-v1 --agent.alpha=10000
 </details>
 
 ## Acknowledgments
-
 This codebase builds upon [FQL](https://github.com/seohongpark/fql) and reference the implementation of [DACER](https://github.com/happy-yan/DACER-Diffusion-with-Online-RL).
 
-## Contact
+## Citation
+```
+@inproceedings{
+    shin2026flow,
+    title={Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning},
+    author={Yongjae Shin and Jongseong Chae and Jongeui Park and Youngchul Sung},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=6wd38R8L0Z}
+}
+```
 
+## Contact
 If you have any questions or inquiries, please feel free to contact:
 **yongjae.shin@kaist.ac.kr**
