@@ -110,7 +110,7 @@ python main.py --env_name=relocate-cloned-v1 --agent.alpha=10000
 </details>
 
 ## Acknowledgments
-This codebase builds upon [FQL](https://github.com/seohongpark/fql) and reference the implementation of [DACER](https://github.com/happy-yan/DACER-Diffusion-with-Online-RL).
+This codebase builds upon [FQL](https://github.com/seohongpark/fql) and references the implementation of [DACER](https://github.com/happy-yan/DACER-Diffusion-with-Online-RL).
 
 ## Citation
 ```
