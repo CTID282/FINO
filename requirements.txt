@@ -6,7 +6,7 @@ distrax >= 0.1.5
 ml_collections
 matplotlib
 moviepy
-mujoco >= 3.3.0
+mujoco == 3.3.0
 mujoco-py == 2.1.2.14
 wandb
 d4rl
