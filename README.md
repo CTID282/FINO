@@ -17,7 +17,7 @@ python main.py
 ```
 We provide a complete list of commands to reproduce the specific results presented in the paper.
 
-### FINO on default tasks of OGBench
+### FINO on OGBench (Default Tasks)
 ```bash
 # OGBench humanoidmaze-medium-navigate-singletask-v0 (default: task1)
 python main.py --env_name=humanoidmaze-medium-navigate-singletask-v0 --agent.alpha=100 --agent.discount=0.995
